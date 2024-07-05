@@ -1,6 +1,6 @@
-# Deploy to Gist
+# Push to Gist
 
-This is a Github Action to push a file to Github Gist.
+This is a Github Action to push a file to Gist.
 
 ## Quick start
 

@@ -26,4 +26,4 @@ inputs:
     default: "text"
 runs:
   using: "node20"
-  main: "dist/index.js"
+  main: "index.js"

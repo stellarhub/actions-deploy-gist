@@ -1,5 +1,5 @@
 name: "Push to Gist"
-description: "📌 Deploy file to Github Gist."
+description: "Push file to Gist."
 author: "Barry"
 branding:
   icon: "upload-cloud"

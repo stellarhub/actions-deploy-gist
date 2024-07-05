@@ -5,7 +5,7 @@ This is a Github Action to push a file to Gist.
 ## Quick start
 
 ```yml
-- name: Deploy
+- name: Push file to Gist
   uses: stellarhub/push-gist-action@v1
   with:
     token: ${{ secrets.GIST_TOKEN }}
@@ -18,7 +18,7 @@ This is a Github Action to push a file to Gist.
 
 ### Prep work
 
-1. Create a gist (public or secret) if you don't have one.
+1. Create a gist (public or secret).
 1. Generate a new [Personal access token](https://github.com/settings/tokens/). Only the `gist` scope is needed.
 
 ### Project setup

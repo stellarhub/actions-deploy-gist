@@ -5,7 +5,6 @@ This is a Github Action to push a file to Gist.
 ## Quick start
 
 ```yml
-- uses: actions/checkout@v3
 - name: Deploy
   uses: stellarhub/push-gist-action@v1
   with:

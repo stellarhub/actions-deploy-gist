@@ -7,7 +7,7 @@ This is a Github Action to push a file to Github Gist.
 ```yml
 - uses: actions/checkout@v3
 - name: Deploy
-  uses: stellarhub/actions-push-gist@v1
+  uses: stellarhub/push-gist-action@v1
   with:
     token: ${{ secrets.GIST_TOKEN }}
     gist_id: from_gist_url
